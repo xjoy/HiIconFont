@@ -1,4 +1,4 @@
 HiIconFont
 ==========
 
-How to use icon fonts in android applications
+A demo app demonstrating on how to use icon fonts in android applications
