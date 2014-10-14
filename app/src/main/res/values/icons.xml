@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ic_home">&#xe803;</string>
+    <string name="ic_about">&#xe800;</string>
+    <string name="ic_cog">&#xe802;</string>
+    <string name="ic_android">&#xe801;</string>
+</resources>

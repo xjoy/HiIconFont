@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="textShadow_Radius">2</integer>
+    <integer name="textShadow_x">2</integer>
+    <integer name="textShadow_y_max">10</integer>
+    <integer name="textShadow_y_default">5</integer>
+
+    <integer name="textColor_Hue_max">359</integer>
+    <integer name="textSize_max">80</integer>
+    <integer name="textSize_default">45</integer>
+</resources>

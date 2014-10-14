@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity$PlaceholderFragment">
+
+
+
+    <TextView
+        android:layout_above="@+id/sec_bottom"
+        android:id="@+id/section_label"
+        android:textColor="@color/teal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="X"
+        android:textSize="60sp"
+        />
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/sec_bottom"
+        android:layout_alignParentBottom="true"
+        android:background="#eeeeee"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            style="@style/SeakBarWrap">
+            <TextView
+                android:text="阴影"
+                style="@style/SeakBarLabel" />
+            <SeekBar
+                android:progress="@integer/textShadow_y_default"
+                android:id="@+id/seekbar_1"
+                android:max="@integer/textShadow_y_max"
+                style="@style/SeakBar"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SeakBarWrap">
+            <TextView
+                android:text="颜色"
+                style="@style/SeakBarLabel" />
+            <SeekBar
+                android:max="@integer/textColor_Hue_max"
+                android:id="@+id/seekbar_2"
+                style="@style/SeakBar"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/SeakBarWrap">
+            <TextView
+                android:text="字号"
+                style="@style/SeakBarLabel" />
+            <SeekBar
+                android:max="@integer/textSize_max"
+                android:progress="@integer/textSize_default"
+                android:id="@+id/seekbar_3"
+                style="@style/SeakBar"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
