@@ -267,7 +267,6 @@ public class MainActivity extends ActionBarActivity {
                 }
             });
 
-
             //color
             SeekBar sb2 = (SeekBar) rootView.findViewById(R.id.seekbar_2);
             final float[] hsv = new float[3];
@@ -299,7 +298,6 @@ public class MainActivity extends ActionBarActivity {
                 }
             });
 
-
             //size
             SeekBar sb3 = (SeekBar) rootView.findViewById(R.id.seekbar_3);
 
@@ -325,8 +323,6 @@ public class MainActivity extends ActionBarActivity {
 
                 }
             });
-
-
 
         }
     }
